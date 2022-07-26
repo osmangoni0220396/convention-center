@@ -14,3 +14,42 @@
     color: #fff;
     font-weight: 700;
 }
+.first-section-btn-custom-css{
+    background-color: rgb(64, 64, 204);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0;
+}
+.first-section-btn-custom-css:hover{
+    background-color: #fff;
+    color: rgb(64, 64, 204);
+    border: 1px solid rgb(64, 64, 204);
+}
+
+.price-custom-css{
+    border: 1px solid transparent;
+    
+}
+.price-btn-custom-css{
+    background-color: rgb(233, 221, 236);
+}
+.price-btn-custom-css:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(233, 221, 236);
+}
+.text-color{
+    color: rgb(98, 102, 106);
+}
+.text-color:hover{
+    color: white;
+}
+.price-custom-css{
+    border: 1px solid transparent;
+
+}
+.price-custom-css:hover{
+    background-color: rgb(64, 64, 204);
+    color: white;
+    transform: scaleY(1.05);
+
+}
