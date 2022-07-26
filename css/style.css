@@ -1,0 +1,16 @@
+.nav-custom-css{
+    font-weight: 700;
+}
+.carousel-image-cutom-css{
+    opacity: 0.8;
+}
+.carousel-btn-custom-css{
+    background-color: #fff;
+    color: rgb(64, 64, 204);
+    font-weight: 700;
+}
+.carousel-btn-custom-css:hover{
+    background-color: rgb(64, 64, 204);
+    color: #fff;
+    font-weight: 700;
+}
