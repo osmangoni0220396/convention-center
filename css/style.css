@@ -40,16 +40,28 @@
 .text-color{
     color: rgb(98, 102, 106);
 }
-.text-color:hover{
-    color: white;
-}
+
 .price-custom-css{
     border: 1px solid transparent;
 
 }
-.price-custom-css:hover{
-    background-color: rgb(64, 64, 204);
-    color: white;
-    transform: scaleY(1.05);
 
+
+.price-active{
+    transform: scaleY(1.1);
+    color: #fff;
+    background-color: rgb(64, 64, 204);
+    background-image: url(icons/watermark.svg);
+    border-radius: 30px;
+}
+.price-active-para{
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 944px){
+    .price-active{
+        transform: scale(1);
+        
+    }
 }
